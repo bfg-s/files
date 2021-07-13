@@ -1,6 +1,6 @@
 {
     "name": "bfg/files",
-    "description": "",
+    "description": "The package is aimed at controlling files",
     "type": "bfg-app",
     "keywords": ["laravel", "extension", "files"],
     "license": "MIT",
