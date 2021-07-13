@@ -1,0 +1,34 @@
+{
+    "name": "bfg/files",
+    "description": "",
+    "type": "bfg-app",
+    "keywords": ["laravel", "extension", "files"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bfg"
+        }
+    ],
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0.0",
+        "ext-exif": "*",
+        "bfg/installer": "*"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Bfg\\Files\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bfg\\Files\\ServiceProvider"
+            ]
+        }
+    }
+}
