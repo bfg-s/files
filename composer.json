@@ -13,6 +13,7 @@
     "require": {
         "php": ">=8.0.0",
         "ext-exif": "*",
+        "ext-fileinfo": "*",
         "bfg/installer": "*"
     },
     "require-dev": {},

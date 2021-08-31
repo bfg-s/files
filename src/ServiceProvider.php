@@ -11,12 +11,6 @@ use Bfg\Installer\Providers\InstalledProvider;
 class ServiceProvider extends InstalledProvider
 {
     /**
-     * The description of extension.
-     * @var string|null
-     */
-    public ?string $description = "The package is aimed at controlling files";
-
-    /**
      * Set as installed by default.
      * @var bool
      */

@@ -19,3 +19,15 @@ if (!function_exists("is_image")) {
         return false;
     }
 }
+
+if (!function_exists('is_video')) {
+    /**
+     * Is video file
+     * @param $file
+     * @return bool
+     */
+    function is_video($file): bool
+    {
+        return is_file($file) && (str_starts_with(mime_content_type($file), 'video/'));
+    }
+}
